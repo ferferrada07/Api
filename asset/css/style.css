@@ -1,0 +1,47 @@
+*{
+    text-align: center;
+}
+
+h4{
+    background: #343333;
+    color: white;
+    display: flex;
+    justify-content:center;
+ 
+}
+h6{
+    margin-top: 20px;
+}
+body{
+    background-color: #343333;
+
+}
+button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    
+}  
+
+.card{
+    background-color: #969494;
+}
+
+.grafico{
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    
+  
+}

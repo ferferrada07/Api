@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="asset/css/style.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+
+<article class="container">
+    <h4 class="card-title">Conversor de monedas Nacional</h4>
+    
+    <div class="card">
+        <div class="card-body">
+            <article class="dynamic-container">
+                <h5>Pesos CLP</h5>
+                <input type="number" id="monto" class="element" min="1" placeholder="Ingrese el monto en CLP">
+                <h6>Moneda a convertir</h6>
+                <select id="selector" class="element" placaholder="Selecione Moneda">
+                    <option>Selecione Moneda</option>
+                    <option value="uf">Unidad de fomento (UF)</option>
+                    <option value="dolar">Dólar observado</option>
+                    <option value="dolar_intercambio">Dólar acuerdo</option>
+                    <option value="euro">Euro</option>
+                    <option value="ipc">Indice de Precios al Consumidor (IPC)</option>
+                    <option value="utm">Unidad Tributaria Mensual (UTM)</option>
+                    <option value="ivp">Indice de valor promedio (IVP)</option>
+                    <option value="imacec">Imacec</option>
+                    <option value="tpm">Tasa Política Monetaria (TPM)</option>
+                    <option value="libra_cobre">Libra de Cobre</option>
+                    <option value="bitcoin">Bitcoin</option>
+                </select>
+            </article>
+        </div>
+        <button id="boton" class="btn btn-primary" >Buscar</button>
+        <h6 id="resultado">...</h6>
+    </div>
+    
+    
+</article>
+<div>
+    <canvas id="myChart" class="grafico"></canvas>
+</div>
+
+<script src="asset/js/app.js"></script>
+
+</body>
+</html>
